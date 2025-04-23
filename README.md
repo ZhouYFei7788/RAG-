@@ -37,21 +37,6 @@ docker-compose -f 复制的名称 up -d
 docker-compose up -d
 ```
 
-### 5. 初始化数据库
-运行以下命令以初始化数据库：
-```bash
-python3 manage.py migrate
-```
-
-### 6. 启动应用
-运行以下命令启动 RAGFlow 应用：
-```bash
-python3 manage.py runserver
-```
-应用将默认运行在 `http://127.0.0.1:8000`。
-
-### 7. 测试部署
-打开浏览器访问 `http://127.0.0.1:8000`，确保应用正常运行。
 
 ## 常见问题
 ### 1. Docker 容器无法启动
