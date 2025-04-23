@@ -25,9 +25,8 @@ cd ragflow
 默认配置为： RAGFLOW_IMAGE=infiniflow/ragflow:v当前版本号-slim
 修改为国内镜像： RAGFLOW_IMAGE=registry.cn-hangzhou.aliyuncs.com/infiniflow/ragflow:v当前版本号
 进入Docker 文件 
-![Uploading 91ba83d4-60a2-44c6-add1-06f045f274a9.png…]()
-
 ```
+
 编辑 `.env` 文件，填写必要的 API 密钥和数据库连接信息。
 
 ### 4. 启动 Docker 服务
