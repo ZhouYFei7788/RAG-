@@ -24,10 +24,12 @@ cd ragflow
 修改文件 docker/.env/
 默认配置为： RAGFLOW_IMAGE=infiniflow/ragflow:v当前版本号-slim
 修改为国内镜像： RAGFLOW_IMAGE=registry.cn-hangzhou.aliyuncs.com/infiniflow/ragflow:v当前版本号
-进入Docker 文件 
+进入Docker 文件 sudo chmod +x docker-compose 赋予权限
 ```
-
-编辑 `.env` 文件，填写必要的 API 密钥和数据库连接信息。
+![91ba83d4-60a2-44c6-add1-06f045f274a9](https://github.com/user-attachments/assets/9c65711d-f864-463e-ba1c-32fe4da414f5)
+进入后复制红色框选的项目 然后
+docker-compose -f 复制的名称 up -d
+启动Docker 
 
 ### 4. 启动 Docker 服务
 确保 Docker 服务已启动，然后运行以下命令启动所需的容器：
